@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title cherrysoft.net
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(rel='stylesheet', type='text/css', href='build/themes.css')
+  body(class='cube')
+
+    article
+
+      section(data-bespoke-hash='home')
+        img(src='images/logo.png')
+        p(class='bottom') use the cursor keys to navigate
+        img(src='images/navigate_before_grey_36x36.png')
+        img(src='images/navigate_next_grey_36x36.png')
+
+      section(data-bespoke-hash='websites')
+        img(src='images/cool.png')
+        h2 websites
+        h3 handcrafted with love
+
+      section(data-bespoke-hash='hosting')
+        img(src='images/servers.png')
+        h2 super fast & reliable hosting
+        h3 cloud, VPS and managed servers
+
+      section(data-bespoke-hash='code')
+        h2 end to end solutions
+        pre
+          code.language-javascript.
+            apps.crafted('with', [
+              loving(),
+              care()
+            ]);
+
+      section(data-bespoke-hash='named-route')
+        h2 contact us
+        h3 +353 (0)1 443 4404
+        p <em>info@cherrysoft.com</em>
+
+    script(src='build/build.js')
