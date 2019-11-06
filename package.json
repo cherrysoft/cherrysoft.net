@@ -2,7 +2,8 @@
   "name": "presentation-cherrysoftnet",
   "version": "0.0.0",
   "dependencies": {
-    "bespoke-theme-voltaire": "1.0.1"
+    "bespoke-theme-voltaire": "1.0.1",
+    "natives": "^1.1.6"
   },
   "devDependencies": {
     "bespoke": "^1.0.0",
